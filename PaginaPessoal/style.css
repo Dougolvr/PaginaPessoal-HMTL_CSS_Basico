@@ -1,0 +1,95 @@
+/* Para o titulo */
+h1 {
+  text-align: center; /* Alinha o título no centro da página */
+  color: white; /* Define a cor do texto como branco */
+  font-style: italic; /* Aplica o estilo itálico ao texto */
+}
+
+/* Para a cor da pagina */
+body {
+  background-color: rgb(43, 44, 82); /* Define a cor de fundo da página como um tom de azul escuro */
+}
+
+/* Alinhamento da imagem de perfil no centro da página */
+.imagemPerfil {
+  text-align: center; /* Centraliza o conteúdo da classe imagemPerfil */
+}
+
+/* Para os ajustes da imagem */
+img {
+  width: 50%; /* Define a largura da imagem como 50% da área disponível */
+  height: 50%; /* Define a altura da imagem como 50% da área disponível */
+  border-radius: 50%; /* Arredonda as bordas da imagem, tornando-a circular */
+}
+
+.menu {
+  display: flex; /* Define a exibição da barra de menu como Flexbox para organizar itens em linha */
+  align-items: center; /* Centraliza verticalmente o conteúdo dentro da barra de menu */
+  justify-content: center; /* Alinha os itens no centro horizontalmente */
+  padding: 20px; /* Define um espaçamento interno de 20 pixels */
+}
+
+/* Para barra de navegação */
+ol {
+    text-align: center; /* Centraliza o texto da lista */
+    font-weight: bold; /* Aplica negrito ao texto */
+}
+
+/* Para onde contem a tag que contem link */
+a {
+  text-decoration: none; /* Remove a linha de sublinhado dos links */
+  color: white; /* Define a cor do texto como branco */
+  font-size: 18px; /* Define o tamanho da fonte para 18 pixels */
+}
+
+/* Para o subtitulo */
+h2 {
+  color: white; /* Define a cor do texto dos subtítulos como branco */
+}
+
+/* Para a estilização dos sections */
+.sobreMim {
+  background-color: rgb(214, 207, 243); /* Define uma cor de fundo para a seção "sobreMim" */
+  color: black; /* Define a cor do texto como preto */
+  border-radius: 10px; /* Arredonda as bordas da seção com um raio de 10 pixels */
+  padding: 10px; /* Adiciona um espaçamento interno de 10 pixels */
+  font-size: 18px; /* Define o tamanho da fonte para 18 pixels */
+}
+
+.formacao {
+  background-color: rgb(214, 207, 243); /* Cor de fundo para a seção de "formacao" */
+  color: black; /* Define a cor do texto como preto */
+  border-radius: 10px; /* Arredonda as bordas da seção */
+  padding: 10px; /* Adiciona um espaçamento interno de 10 pixels */
+  font-size: 18px; /* Define o tamanho da fonte para 18 pixels */
+}
+
+.hobbies {
+  background-color: rgb(214, 207, 243); /* Define a cor de fundo para a seção "hobbies" */
+  color: black; /* Define a cor do texto como preto */
+  border-radius: 10px; /* Arredonda as bordas da seção */
+  padding: 10px; /* Adiciona um espaçamento interno de 10 pixels */
+  font-size: 18px; /* Define o tamanho da fonte para 18 pixels */
+}
+
+.redesSociais {
+  background-color: rgb(214, 207, 243); /* Define a cor de fundo para a seção de redes sociais */
+  color: black; /* Define a cor do texto como preto */
+  border-radius: 10px; /* Arredonda as bordas da seção */
+  padding: 10px; /* Adiciona um espaçamento interno de 10 pixels */
+  font-size: 18px; /* Define o tamanho da fonte para 18 pixels */
+}
+
+.redesSociais a {
+  color: black; /* Define a cor dos links dentro da seção redes sociais como preto */
+}
+
+/* Rodapé */
+footer {
+  font-style: italic; /* Aplica o estilo itálico ao texto do rodapé */
+  color: rgb(43, 44, 82); /* Define a cor do texto do rodapé como azul escuro */
+  font-weight: bold; /* Aplica negrito ao texto do rodapé */
+  text-align: center; /* Centraliza o texto no rodapé */
+  font-size: 15px; /* Define o tamanho da fonte para 15 pixels */
+  background-color: white; /* Define a cor de fundo do rodapé como branco */
+}
